@@ -80,5 +80,6 @@ yay -S perl-expect
 yay -S perl-net-arp uuid perl-crypt-rijndael perl-io-stty
 
 git clone https://aur.archlinux.org/asbru-cm-git.git && cd asbru-cm-git
+
 makepkg -si
  ```
