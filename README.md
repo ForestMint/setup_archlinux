@@ -70,18 +70,15 @@ sudo pacman -Syu perl-yaml
 sudo pacman -Syu perl-crypt-cbc
 sudo pacman -Syu perl-crypt-blowfish
 sudo pacman -Syu perl-gtk3
-sudo pacman -Syu perl-net-arp
-sudo pacman -Syu uuid
 sudo pacman -Syu inetutils
-sudo pacman -Syu perl-crypt-rijndael
 sudo pacman -Syu perl-xml-parser
 sudo pacman -Syu perl-gtk3-simplelist
-sudo pacman -Syu perl-io-stty
 sudo pacman -Syu perl-io-tty
 
 yay -S perl-expect
 
+yay -S perl-net-arp uuid perl-crypt-rijndael perl-io-stty
+
  git clone https://aur.archlinux.org/asbru-cm-git.git && cd asbru-cm-git
  makepkg -si
-
  ```
