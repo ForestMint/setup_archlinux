@@ -66,7 +66,6 @@ sudo pacman -Syu cairo-perl
 sudo pacman -Syu glib-perl
 sudo pacman -Syu pango-perl
 sudo pacman -Syu perl-socket6
-sudo pacman -Syu perl-expect
 sudo pacman -Syu perl-yaml
 sudo pacman -Syu perl-crypt-cbc
 sudo pacman -Syu perl-crypt-blowfish
@@ -79,6 +78,8 @@ sudo pacman -Syu perl-xml-parser
 sudo pacman -Syu perl-gtk3-simplelist
 sudo pacman -Syu perl-io-stty
 sudo pacman -Syu perl-io-tty
+
+yay -S perl-expect
 
  git clone https://aur.archlinux.org/asbru-cm-git.git && cd asbru-cm-git
  makepkg -si
