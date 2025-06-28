@@ -13,12 +13,12 @@ ping google.com
 ping google.com
 ```
 
-install firefox
+install Firefox
 ```bash
 pacman -Syu firefox
 ```
 
-install vscode
+install VSCode
 ```bash
 pacman -Syu vscode
 ```
@@ -44,7 +44,7 @@ install Git
 sudo pacman -Syu git
 ```
 
-install yay
+install Yay
 ```bash
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -52,13 +52,13 @@ makepkg -si
 yay --version
 ```
 
-install vagrant
+install Vagrant
 ```bash
 yay -S vagrant
 ```
 
 
-install asbru
+install Ásbrú
 
 ```bash
 sudo pacman -Syu vte3
